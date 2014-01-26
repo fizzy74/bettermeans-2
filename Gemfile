@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # ruby '1.8.7'
 
@@ -21,30 +21,30 @@ gem 'ruby-debug', '0.10.4'
 gem 'rubytree', '0.7.0'
 gem 'will_paginate', '2.3.15'
 
-group :test do
-  gem 'rcov'
-  gem 'shoulda'
-  gem 'webrat', '0.7.3'
-  gem 'rspec', '1.3.2'
-  gem 'rspec-rails', '1.3.4'
-  gem 'pickle', "0.3.4"
-  gem 'factory_girl', "1.3.3"
-  gem 'object_daddy', "0.4.3"
-  #gem 'capybara-webkit'
-  gem 'fakeweb'
-end
+# group :test do
+#   gem 'rcov'
+#   gem 'shoulda'
+#   gem 'webrat', '0.7.3'
+#   gem 'rspec', '1.3.2'
+#   gem 'rspec-rails', '1.3.4'
+#   gem 'pickle', "0.3.4"
+#   gem 'factory_girl', "1.3.3"
+#   gem 'object_daddy', "0.4.3"
+#   #gem 'capybara-webkit'
+#   gem 'fakeweb'
+# end
 
-group :development do
-  gem 'guard-rspec'
-  gem 'spork', '0.8.5'
-  gem 'guard-spork'
-  #gem 'reek'
-  gem 'ruby2ruby', '1.2.2'
-  gem 'heckle'
-end
+# group :development do
+#   gem 'guard-rspec'
+#   gem 'spork', '0.8.5'
+#   gem 'guard-spork'
+#   #gem 'reek'
+#   gem 'ruby2ruby', '1.2.2'
+#   gem 'heckle'
+# end
 
-group :development, :test do
-  gem 'capybara'
-  gem 'faker'
-  gem 'steak'
-end
+# group :development, :test do
+#   gem 'capybara'
+#   gem 'faker'
+#   gem 'steak'
+# end
