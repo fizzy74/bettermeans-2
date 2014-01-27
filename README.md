@@ -1,4 +1,4 @@
-### Bettermans playground / test version fork.
+### Bettermeans playground / test version fork
 ### Not usable in production.
 
 
