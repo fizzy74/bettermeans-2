@@ -1,43 +1,10 @@
-![status](https://secure.travis-ci.org/mockdeep/better.png?branch=master)
-[![Code Climate](https://codeclimate.com/github/mockdeep/better.png)](https://codeclimate.com/github/mockdeep/better)
-[![Dependency Status](https://gemnasium.com/mockdeep/better.png)](https://gemnasium.com/mockdeep/better)
+### Bettermans playground / test version fork.
+### Not usable in production.
 
-live server hosted at: https://better.boon.gl
 
 *** Use at your own risk!!! There are likely to be vulnerabilities in this
 app!!! ***
 
-Public workstream: https://better.boon.gl/projects/1
-
-Pre-requisites
---------------
-
-I recommend using rvm to manage your ruby versions:
-
-* `rvm install 1.8.7-p374`
-
-* `rvm rubygems 1.8.25`
-
-Imagemagick is a dependency:
-
-* `brew install imagemagick` [see here for errors installing rmagick](http://stackoverflow.com/a/13967303/372479)
-
-Getting started
----------------
-
-* `git clone git@github.com:Bettermeans/bettermeans.git`
-
-* bundle install
-
-* Rename `database.yml.example` to `database.yml`
-
-* Run `rake db:create:all` and `rake db:schema:load`
-
-* Then run `rake db:seed` to get some necessary seed data set up
-
-* To load schema into test database, run `rake db:test:prepare`
-
-* To run specs, run `rake`
 
 Production
 ----------
@@ -142,10 +109,6 @@ Translating
 You can find language specific translation groups at:
 https://www.transifex.net/projects/p/bettermeans
 
-Known issues
-------------
-
-Attachments doesn't work in dev environment
 
 License and legalese
 --------------------
