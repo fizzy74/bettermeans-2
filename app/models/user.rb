@@ -128,6 +128,7 @@ class User < ActiveRecord::Base
     # update hashed_password if password was set
     self.hashed_password = User.hash_password(self.password) if self.password
     self.mail_hash =  Digest::MD5.hexdigest(self.mail) unless mail.nil?
+    self.status = 1
   end
 
   def after_create # spec_me cover_me heckle_me

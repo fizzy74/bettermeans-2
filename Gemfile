@@ -1,11 +1,13 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-# ruby '1.8.7'
+ruby '1.8.7'
 
+gem 'bundler'
 gem 'rake', '0.8.7'
 
 gem 'rails', '2.3.18'
 
+gem "mime-types", "~> 1.25"
 gem 'SystemTimer', '1.2.2', :require => 'system_timer', :platforms => :ruby_18
 gem 'comma', :git => 'https://github.com/crafterm/comma.git', :ref => 'rails2'
 gem 'fastercsv', '1.5.4'
